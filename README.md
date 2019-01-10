@@ -1,27 +1,48 @@
-# TheDiary
+# The Diary
+#### An online alternative to write everyday diary, 10/1/2019.
+#### By **ANUM ASIF**
+## Description
+This application is developed to provide you with a medium to write your thoughts whenever you feel like. Using this app you can creat a new diary entry with an option to add date, you can delete an entry and you can highlight titles in the diary entry
+## Setup/Installation Requirements
+*Web Browser*
+## Specifications
+### The website:
+1. displays an error message if  no value is selected
+   - INPUT:" " 
+   - OUTPUT:"Select one answer for each question
+2. displays an error message if any one question is left unattended
+   - INPUT:"" 
+   - OUTPUT:"Select one answer for each question"
+3. Submits the form with all the values selected
+   - INPUT:"All answers submitted"
+   - OUTPUT:"Score achieved"
+4. displays an option to retake the test incase of dissatisfaction
+   - INPUT:"Retake quiz option selected" 
+   - OUTPUT:"Quiz board appears"
+### Development
+Want to contribute? Great!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+To fix a bug or enhance an existing module, follow these steps:
 
-## Development server
+- Fork the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -am 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request 
+## Known Bugs
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/AnumAsif/The-Diary/issues/new) by including your search query and the expected result.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/AnumAsif/The-Diary/issues/new). Please include sample queries and their corresponding results.
+## Technologies Used
+- [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+## Link to my live site on GitHub Pages
+- [The Diary](https://anumasif.github.io/the-diary/)
+## Support and contact details
+Please feel free to contact me if you have any suggestion for me to improve this website.
+- Email: anum@cockar.com
+### License
+*MIT*
+Copyright (c) 2018 **ANUM ASIF**
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
